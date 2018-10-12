@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_location_permission">title_location_permission</string>
+    <string name="text_location_permission">text_location_permission</string>
+    <string name="ok">OK</string>
+    <string name="post_text">
+        Тут буде багато тексту\n
+        <b>Дуже багато!</b>\n</string>
+    <string name="post_title">Назва посту</string>
+</resources>
