@@ -37,7 +37,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".PostActivity"
-            android:label="Post">
+            android:label="Post"
+            android:theme="@style/AppTheme.Slidr"
+            >
         </activity>
     </application>
 

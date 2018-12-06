@@ -4,11 +4,17 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.view.GestureDetectorCompat;
+import android.view.GestureDetector;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ScrollView;
+import android.widget.Toast;
+
+import com.r0adkll.slidr.Slidr;
 
 public class PostActivity extends Activity {
-
 
 
     @Override
@@ -22,9 +28,17 @@ public class PostActivity extends Activity {
             public void onClick(View v) {
                 Intent intent = new Intent(PostActivity.this, MapsActivity.class);
                 startActivity(intent);
+
             }
         });
+
+        Slidr.attach(this).unlock();
+
+
+
     }
+
+
 
 
 }
