@@ -11,12 +11,16 @@ import android.location.Location;
 import android.location.LocationListener;
 import android.location.LocationManager;
 import android.support.annotation.NonNull;
+import android.support.design.widget.BottomNavigationView;
+import android.support.design.widget.NavigationView;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.FrameLayout;
 import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdate;
@@ -39,82 +43,27 @@ import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 
 public class MapsActivity extends FragmentActivity
-        implements GoogleMap.OnMyLocationButtonClickListener,
-        GoogleMap.OnMyLocationClickListener,
-        OnMapReadyCallback {
+        implements BottomNavigationView.OnNavigationItemSelectedListener {
 
-    private GoogleMap mMap;
-    LocationManager locationManager;
-    String provider;
+    private LocationManager locationManager;
+    private String provider;
+    private BottomNavigationView bottomNavigationView;
+    private MapFragment mapFragment = new MapFragment();
+    private PostFragment postFragment = new PostFragment();
+    private FrameLayout frameLayout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
         checkLocationPermission();
-        SupportMapFragment mapFragment =
-                (SupportMapFragment) getSupportFragmentManager().findFragmentById(R.id.map);
-        mapFragment.getMapAsync(this);
-        Button button_post= findViewById(R.id.button_post);
-        button_post.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MapsActivity.this, PostActivity.class);
-                startActivity(intent);
-            }
-        });
+
+
+        bottomNavigationView = findViewById(R.id.buttom_navigation_view);
+        bottomNavigationView.setSelectedItemId(R.id.map_f);
+        bottomNavigationView.setOnNavigationItemSelectedListener(this);
+        getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, mapFragment).commit();
     }
-
-
-    @Override
-    public void onMapReady(GoogleMap map) {
-        mMap = map;
-        // TODO: Before enabling the My Location layer, you must request
-        // location permission from the user. This sample does not include
-        // a request for location permission.
-
-
-        try {
-            // Customise the styling of the base map using a JSON object defined
-            // in a raw resource file.
-            boolean success = mMap.setMapStyle(
-                    MapStyleOptions.loadRawResourceStyle(
-                            this, R.raw.style_json));
-
-            if (!success) {
-                Log.e(TAG, "Style parsing failed.");
-            }
-        } catch (Resources.NotFoundException e) {
-            Log.e(TAG, "Can't find style. Error: ", e);
-        }
-
-
-
-        if (ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION)
-                == PackageManager.PERMISSION_GRANTED) {
-            mMap.setMyLocationEnabled(true);
-        } else {
-            checkLocationPermission();
-            // Show rationale and request permission.
-        }
-        mMap.setOnMyLocationButtonClickListener((GoogleMap.OnMyLocationButtonClickListener) this);
-        mMap.setOnMyLocationClickListener((GoogleMap.OnMyLocationClickListener) this);
-    }
-
-    @Override
-    public void onMyLocationClick(@NonNull Location location) {
-        Toast.makeText(this, "Current location:\n" + location, Toast.LENGTH_LONG).show();
-    }
-
-    @Override
-    public boolean onMyLocationButtonClick() {
-        Toast.makeText(this, "MyLocation button clicked", Toast.LENGTH_SHORT).show();
-        // Return false so that we don't consume the event and the default behavior still occurs
-        // (the camera animates to the user's current position).
-        return false;
-    }
-
-
 
 
 
@@ -194,4 +143,21 @@ public class MapsActivity extends FragmentActivity
     private static final String TAG = MapsActivity.class.getSimpleName();
 
 
+    @Override
+    public boolean onNavigationItemSelected(@NonNull MenuItem item) {
+
+        frameLayout = findViewById(R.id.framelayout);
+
+        switch (item.getItemId()) {
+            case R.id.map_nav_view:
+                getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, mapFragment).commit();
+                return true;
+
+            case R.id.post_nav_view:
+                getSupportFragmentManager().beginTransaction().replace(R.id.framelayout, postFragment).commit();
+                return true;
+        }
+
+        return false;
+    }
 }

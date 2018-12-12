@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/map_nav_view"
+        android:icon="@color/common_google_signin_btn_text_dark_default"
+        android:title="Map" />
+
+    <item
+        android:id="@+id/post_nav_view"
+        android:icon="@color/colorPrimaryDark"
+        android:title="Post"
+        />
 
 </menu>
