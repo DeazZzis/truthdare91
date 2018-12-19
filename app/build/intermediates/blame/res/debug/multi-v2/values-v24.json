@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Deathis\\Documents\\Apps Studio\\Studio\\MyApplication\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "C:\\Users\\User\\Desktop\\Map_App_Samsung\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Deathis\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\b998f090eb1af467f5ac49ba3b226407\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\aa9b61f7bed4e135d6efc8607430c3e3\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\Deathis\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\29231f1ac8ea60d1fdac58910e0cf5d1\\res\\values-v24\\values-v24.xml",
+                    "source": "C:\\Users\\User\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\d71d04ac6e78b1c55d254f7368c6fd29\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
