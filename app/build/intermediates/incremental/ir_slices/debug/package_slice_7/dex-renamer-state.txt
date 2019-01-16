@@ -1,4 +1,4 @@
-#Wed Nov 14 22:21:29 EET 2018
-base.0=C\:\\Users\\Deathis\\Documents\\Apps Studio\\Studio\\MyApplication\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
+#Wed Dec 19 18:34:09 EET 2018
+base.0=C\:\\Users\\User\\Desktop\\Map_App_Samsung\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\7
 path.0=classes.dex
 renamed.0=classes.dex

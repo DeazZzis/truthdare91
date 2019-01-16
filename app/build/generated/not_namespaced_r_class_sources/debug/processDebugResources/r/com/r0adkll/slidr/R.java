@@ -12,7 +12,7 @@ public final class R {
     public static final class id {
         private id() {}
 
-        public static final int slidable_content = 0x7f070083;
-        public static final int slidable_panel = 0x7f070084;
+        public static final int slidable_content = 0x7f0800a2;
+        public static final int slidable_panel = 0x7f0800a3;
     }
 }
