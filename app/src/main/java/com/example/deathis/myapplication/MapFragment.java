@@ -42,7 +42,7 @@ import static android.content.ContentValues.TAG;
  */
 public class MapFragment extends Fragment {
 
-
+//ffdf
     private GoogleMap mMap;
     private LocationManager locationManager;
     private String provider;

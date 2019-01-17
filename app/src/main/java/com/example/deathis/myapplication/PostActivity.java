@@ -16,7 +16,7 @@ import com.r0adkll.slidr.Slidr;
 
 public class PostActivity extends Activity {
 
-
+//ff
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

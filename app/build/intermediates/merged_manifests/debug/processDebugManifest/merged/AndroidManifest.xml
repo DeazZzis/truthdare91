@@ -7,6 +7,7 @@
     <uses-sdk
         android:minSdkVersion="23"
         android:targetSdkVersion="27" />
+
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
          Google Maps Android API v2, but you must specify either coarse or fine
@@ -29,7 +30,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/AppTheme" >
 
         <!--
@@ -57,6 +57,10 @@
             android:name="com.example.deathis.myapplication.PostActivity"
             android:label="Post"
             android:theme="@style/AppTheme.Slidr" >
+        </activity>
+        <activity
+            android:name="com.example.deathis.myapplication.MainActivity"
+            android:label="@string/title_activity_main" >
         </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
