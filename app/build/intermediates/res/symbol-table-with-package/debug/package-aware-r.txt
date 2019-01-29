@@ -16,6 +16,13 @@ anim design_bottom_sheet_slide_out
 anim design_snackbar_in
 anim design_snackbar_out
 animator design_appbar_state_list_animator
+array list_preference_entries
+array list_preference_entry_values
+array multi_select_list_preference_default_value
+array pref_example_list_titles
+array pref_example_list_values
+array pref_sync_frequency_titles
+array pref_sync_frequency_values
 attr actionBarDivider
 attr actionBarItemBackground
 attr actionBarPopupTheme
@@ -497,6 +504,7 @@ color button_material_light
 color colorAccent
 color colorPrimary
 color colorPrimaryDark
+color colorView
 color colormain
 color colortopview
 color common_google_signin_btn_text_dark
@@ -812,6 +820,7 @@ drawable abc_textfield_search_material
 drawable abc_vector_test
 drawable avd_hide_password
 drawable avd_show_password
+drawable background
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -841,9 +850,11 @@ drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_dashboard_black_24dp
 drawable ic_home_black_24dp
+drawable ic_info_black_24dp
 drawable ic_launcher_background
 drawable ic_launcher_foreground
 drawable ic_notifications_black_24dp
+drawable ic_sync_black_24dp
 drawable navigation_empty_icon
 drawable notification_action_background
 drawable notification_bg
@@ -859,6 +870,7 @@ drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable truth
 id ALT
 id CTRL
 id FUNCTION
@@ -882,6 +894,7 @@ id action_menu_presenter
 id action_mode_bar
 id action_mode_bar_stub
 id action_mode_close_button
+id action_settings
 id action_text
 id actions
 id activity_chooser_view_content
@@ -898,9 +911,11 @@ id barrier
 id beginning
 id blocking
 id bottom
-id button2_map
-id button2_post
+id button
+id buttonLogin
 id buttonPanel
+id buttonReg
+id buttonSingUp
 id cancel_action
 id center
 id center_horizontal
@@ -911,7 +926,6 @@ id chronometer
 id clip_horizontal
 id clip_vertical
 id collapseActionView
-id constraintLayout
 id container
 id contentPanel
 id coordinator
@@ -928,6 +942,14 @@ id design_navigation_view
 id dimensions
 id direct
 id disableHome
+id editText
+id editTextEmail
+id editTextFirstName
+id editTextPass
+id editTextPassword
+id editTextPhone
+id editTextSecondName
+id editTextTeam
 id edit_query
 id end
 id end_padder
@@ -958,10 +980,13 @@ id invisible
 id italic
 id item_touch_helper_previous_elevation
 id largeLabel
+id layoutLoading
+id layoutLoadingReg
 id left
 id light
 id line1
 id line3
+id linearLayoutEditText
 id listMode
 id list_item
 id map
@@ -992,6 +1017,8 @@ id percent
 id pin
 id post_f
 id post_nav_view
+id progressBar
+id progressBarReg
 id progress_circular
 id progress_horizontal
 id radio
@@ -1018,7 +1045,6 @@ id search_mag_icon
 id search_plate
 id search_src_text
 id search_voice_btn
-id section_label
 id select_dialog_listview
 id shortcut
 id showCustom
@@ -1052,6 +1078,13 @@ id text
 id text2
 id textSpacerNoButtons
 id textSpacerNoTitle
+id textTeam
+id textView
+id textViewEmail
+id textViewFirstName
+id textViewPassword
+id textViewPhone
+id textViewSecondName
 id text_input_password_toggle
 id textinput_counter
 id textinput_error
@@ -1072,7 +1105,7 @@ id uniform
 id up
 id useLogo
 id view
-id view1
+id view2
 id view_offset_helper
 id visible
 id wide
@@ -1117,8 +1150,10 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_email_pass
 layout activity_maps
-layout activity_post
+layout activity_registration
+layout activity_start
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
 layout design_layout_snackbar
@@ -1133,7 +1168,6 @@ layout design_navigation_item_subheader
 layout design_navigation_menu
 layout design_navigation_menu_item
 layout design_text_input_password_icon
-layout fragment_main
 layout fragment_map
 layout fragment_post
 layout notification_action
@@ -1155,9 +1189,11 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu
 menu navigation
 menu navigation_view
 mipmap ic_launcher
+mipmap ic_launcher_foreground
 mipmap ic_launcher_round
 raw style_map
 string abc_action_bar_home_description
@@ -1211,7 +1247,15 @@ string common_google_play_services_wear_update_text
 string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
+string default_web_client_id
+string editTextError
+string firebase_database_url
+string gcm_defaultSenderId
+string google_api_key
+string google_app_id
+string google_crash_reporting_api_key
 string google_maps_key
+string google_storage_bucket
 string hello_blank_fragment
 string ok
 string password_toggle_content_description
@@ -1219,8 +1263,22 @@ string path_password_eye
 string path_password_eye_mask_strike_through
 string path_password_eye_mask_visible
 string path_password_strike_through
-string post_text
 string post_title
+string pref_default_display_name
+string pref_description_social_recommendations
+string pref_header_data_sync
+string pref_header_general
+string pref_header_notifications
+string pref_ringtone_silent
+string pref_title_add_friends_to_messages
+string pref_title_display_name
+string pref_title_new_message_notifications
+string pref_title_ringtone
+string pref_title_social_recommendations
+string pref_title_sync_frequency
+string pref_title_system_sync_settings
+string pref_title_vibrate
+string project_id
 string search_menu_title
 string section_format
 string status_bar_notification_info_overflow
@@ -1228,6 +1286,7 @@ string text_location_permission
 string title_activity_main
 string title_activity_main_text
 string title_activity_maps
+string title_activity_settings
 string title_dashboard
 string title_home
 string title_location_permission
@@ -1243,6 +1302,7 @@ style AppTheme_AppBarOverlay
 style AppTheme_NoActionBar
 style AppTheme_PopupOverlay
 style AppTheme_Slidr
+style AppTheme_Starting
 style Base_AlertDialog_AppCompat
 style Base_AlertDialog_AppCompat_Light
 style Base_Animation_AppCompat_Dialog
@@ -1676,3 +1736,7 @@ styleable Toolbar android_gravity android_minHeight buttonGravity collapseConten
 styleable View android_theme android_focusable paddingEnd paddingStart theme
 styleable ViewBackgroundHelper android_background backgroundTint backgroundTintMode
 styleable ViewStubCompat android_id android_layout android_inflatedId
+xml pref_data_sync
+xml pref_general
+xml pref_headers
+xml pref_notification

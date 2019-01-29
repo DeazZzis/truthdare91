@@ -24,10 +24,12 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.GoogleMap.OnMyLocationButtonClickListener;
 import com.google.android.gms.maps.OnMapReadyCallback;
 import com.google.android.gms.maps.SupportMapFragment;
+import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MapStyleOptions;
 
 import java.util.Map;
@@ -42,11 +44,11 @@ import static android.content.ContentValues.TAG;
  */
 public class MapFragment extends Fragment {
 
-//ffdf
+
     private GoogleMap mMap;
     private LocationManager locationManager;
     private String provider;
-
+    private LatLng latLngLviv;
 
     public MapFragment() {
 
@@ -60,7 +62,7 @@ public class MapFragment extends Fragment {
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        }
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -68,58 +70,59 @@ public class MapFragment extends Fragment {
 
 
         View view = inflater.inflate(R.layout.fragment_map, container, false);
-        SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
+        final SupportMapFragment mapFragment = (SupportMapFragment) getChildFragmentManager().findFragmentById(R.id.map);
         mapFragment.getMapAsync(new OnMapReadyCallback() {
             @Override
             public void onMapReady(GoogleMap googleMap) {
                 mMap = googleMap;
-        // TODO: Before enabling the My Location layer, you must request
-        // location permission from the user. This sample does not include
-        // a request for location permission.
+                // TODO: Before enabling the My Location layer, you must request
+                // location permission from the user. This sample does not include
+                // a request for location permission.
+                latLngLviv = new LatLng(49.842957, 24.031111);
+                mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(latLngLviv, 13));
 
 
-        try {
-            // Customise the styling of the base map using a JSON object defined
-            // in a raw resource file.
-            boolean success = mMap.setMapStyle(
-                    MapStyleOptions.loadRawResourceStyle(
-                            getContext(), R.raw.style_map));
+                try {
+                    // Customise the styling of the base map using a JSON object defined
+                    // in a raw resource file.
+                    boolean success = mMap.setMapStyle(
+                            MapStyleOptions.loadRawResourceStyle(
+                                    getContext(), R.raw.style_map));
 
-            if (!success) {
-                Log.e(TAG, "Style parsing failed.");
-            }
-        } catch (Resources.NotFoundException e) {
-            Log.e(TAG, "Can't find style. Error: ", e);
-        }
+                    if (!success) {
+                        Log.e(TAG, "Style parsing failed.");
+                    }
+                } catch (Resources.NotFoundException e) {
+                    Log.e(TAG, "Can't find style. Error: ", e);
+                }
 
 
-
-        if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION)
-                == PackageManager.PERMISSION_GRANTED) {
-            mMap.setMyLocationEnabled(true);
-        } else {
-            checkLocationPermission();
-            // Show rationale and request permission.
-        }
-        mMap.setOnMyLocationButtonClickListener(new OnMyLocationButtonClickListener() {
-            @Override
-            public boolean onMyLocationButtonClick() {
-                Toast.makeText(getContext(), "MyLocation button clicked", Toast.LENGTH_SHORT).show();
+                if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.ACCESS_FINE_LOCATION)
+                        == PackageManager.PERMISSION_GRANTED) {
+                    mMap.setMyLocationEnabled(true);
+                } else {
+                    checkLocationPermission();
+                    // Show rationale and request permission.
+                }
+                mMap.setOnMyLocationButtonClickListener(new OnMyLocationButtonClickListener() {
+                    @Override
+                    public boolean onMyLocationButtonClick() {
+                        Toast.makeText(getContext(), "MyLocation button clicked", Toast.LENGTH_SHORT).show();
 //        // Return false so that we don't consume the event and the default behavior still occurs
 //        // (the camera animates to the user's current position).
-                return false;
-            }
-        });
-        mMap.setOnMyLocationClickListener(new GoogleMap.OnMyLocationClickListener() {
-            @Override
-            public void onMyLocationClick(@NonNull Location location) {
-                Toast.makeText(getContext(), "Current location:\n" + location, Toast.LENGTH_LONG).show();
-            }
-        });
+                        return false;
+                    }
+                });
+                mMap.setOnMyLocationClickListener(new GoogleMap.OnMyLocationClickListener() {
+                    @Override
+                    public void onMyLocationClick(@NonNull Location location) {
+                        Toast.makeText(getContext(), "Current location:\n" + location, Toast.LENGTH_LONG).show();
+                    }
+                });
 
             }
         });
-        getActivity().getSupportFragmentManager().beginTransaction().add(R.id.map,mapFragment);
+        getActivity().getSupportFragmentManager().beginTransaction().add(R.id.map, mapFragment);
 
         return view;
     }
@@ -198,7 +201,6 @@ public class MapFragment extends Fragment {
     }
 
     private static final String TAG = MapsActivity.class.getSimpleName();
-
 
 
 //

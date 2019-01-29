@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "205458472131",
+    "firebase_url": "https://terenivka.firebaseio.com",
+    "project_id": "terenivka",
+    "storage_bucket": "terenivka.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:205458472131:android:bc47372b4417c624",
+        "android_client_info": {
+          "package_name": "com.example.deathis.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "205458472131-tcrmfi6q2nu808gcf9tfm4n2irjbb5ln.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.deathis.myapplication",
+            "certificate_hash": "17e9c227e9b880cff54f1fc9dbf7d7f6cfa881bc"
+          }
+        },
+        {
+          "client_id": "205458472131-t1ok4sbbqhvd9j1bkr1pkq46p12dannp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCfzksftEf19uzEtw2rlR81LThAtDr75Ok"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "205458472131-t1ok4sbbqhvd9j1bkr1pkq46p12dannp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

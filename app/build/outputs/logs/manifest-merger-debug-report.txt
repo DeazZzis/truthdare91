@@ -1,197 +1,276 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-MERGED from [com.android.support:design:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6b79c9b863c2baea45e8dba8e0a8779c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\29231f1ac8ea60d1fdac58910e0cf5d1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:17:1-32:12
-MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\7a7171a24b40ba215a8e2a959e237281\AndroidManifest.xml:2:1-11:12
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:17:1-29:12
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\09fb4713cfdfdd88250bba1417eb7841\AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3dd3143070c055cfa14ff7f1051ba4ef\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6eff37d63757f0b695a126e9a66157a2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c101483d67aeca5332e7cebb165f0c01\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e38ff6e62a45ee15ebdac4ad3fcfed16\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3fd50717f573d07b26c15033f15d23e\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6301e502bd45cece1f0f4eae4d447967\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\61b9f09caf4cae80164fb95c669dac05\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b9ce0328cee29c957002d2b12aeae93c\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\8ce1f30fa20b0db82ad9ec995cc8a8e8\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b998f090eb1af467f5ac49ba3b226407\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\58e093ab19a7f657f316463b9569e788\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6282df1001ac03441c3a7d9d080ecbf1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7e6d68c93d43362c8cb3a60d500cce13\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\afa65bf2cc22e68074660ac1f03d3ae2\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e9d1218b678977541fd6b649e1649be7\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+MERGED from [com.android.support:design:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\55aa2309f021d9f5ccc74b864c86c0e9\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3838525ec18fc77dea04cad13ac0edfc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:17:1-32:12
+MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\b6427ced0b7357f78a6b01c9f925db23\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\216b12f849445d0990855602ed0df681\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\8385ffb4b9a9f507c52693f533dfcfd6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b0e861afb2e47e05f27e50de9ff70f0c\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\97dd2f9ecea2674101077824d390151e\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\1bb34864c268cb650a136e64650049e9\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\655b9ed322ed9b4eac640805f2384fef\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\2f20e6d7b40f3ae1bf1713744571621b\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\60ea939677ae751288dfbc09d31d2641\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\96f7941257d7947fa279e3e12679de8c\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\1b3eafad0439823e25763918ddc222cd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2289943a0a0c0c00d3e89402abd3c3fc\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ebfeb3fa40eca479ebd958bc92156974\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9e4bf1a1e2706224e7188bd666ed6ac4\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\21b32adda8d09627974fc9fd2cad28fd\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f4706badeb3c1bd4fb2f7c7a081e3b38\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5e871a9a51ddf2f3ffbf95d0a3985f64\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a5394b24ffd93ba2a68812189ef5215b\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b9e0ac821d68ae22b1943c6be4a49006\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cdbb649d094bd471fc11a9b258ae86b9\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\150486cb5b4cd15649e183335d45d4e5\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\87f367dd1ad62aa36d97eed76cf7011f\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:3:5-48
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:3:5-48
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
 	android:versionCode
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-52:12
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:1-45:12
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:10:5-79
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:9:5-79
 	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:10:22-76
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:9:22-76
 application
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:12:5-50:19
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:30:5-20
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:30:5-20
-MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\7a7171a24b40ba215a8e2a959e237281\AndroidManifest.xml:9:5-20
-MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\7a7171a24b40ba215a8e2a959e237281\AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:22:5-27:19
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\09fb4713cfdfdd88250bba1417eb7841\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\09fb4713cfdfdd88250bba1417eb7841\AndroidManifest.xml:7:5-20
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6eff37d63757f0b695a126e9a66157a2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6eff37d63757f0b695a126e9a66157a2\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:11:5-43:19
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:30:5-20
+MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\b6427ced0b7357f78a6b01c9f925db23\AndroidManifest.xml:9:5-20
+MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\b6427ced0b7357f78a6b01c9f925db23\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b0e861afb2e47e05f27e50de9ff70f0c\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b0e861afb2e47e05f27e50de9ff70f0c\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\655b9ed322ed9b4eac640805f2384fef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\655b9ed322ed9b4eac640805f2384fef\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\60ea939677ae751288dfbc09d31d2641\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\60ea939677ae751288dfbc09d31d2641\AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:18:9-40
-meta-data#com.google.android.geo.API_KEY
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:28:9-30:55
-	android:value
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:30:13-52
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:17:9-40
+activity#com.example.deathis.myapplication.StartActivity
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:18:9-23:20
 	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:29:13-58
-activity#com.example.deathis.myapplication.MapsActivity
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:32:9-40:20
-	android:label
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:34:13-56
-	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:33:13-41
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:18:19-48
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:35:13-39:29
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:19:13-22:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:36:17-69
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:20:17-69
 	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:36:25-66
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:20:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:38:17-77
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:38:27-74
-activity#com.example.deathis.myapplication.PostActivity
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:41:9-45:20
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:21:27-74
+activity#com.example.deathis.myapplication.SettingsActivity
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:24:9-31:20
+	android:parentActivityName
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:27:13-55
 	android:label
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:43:13-33
-	android:theme
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:44:13-50
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:26:13-60
 	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:42:13-41
-activity#com.example.deathis.myapplication.MainActivity
-ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:46:9-49:20
-	android:label
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:48:13-56
-	android:name
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml:47:13-41
-uses-sdk
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6b79c9b863c2baea45e8dba8e0a8779c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6b79c9b863c2baea45e8dba8e0a8779c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\29231f1ac8ea60d1fdac58910e0cf5d1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\29231f1ac8ea60d1fdac58910e0cf5d1\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:20:5-44
-MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\7a7171a24b40ba215a8e2a959e237281\AndroidManifest.xml:5:5-7:41
-MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\7a7171a24b40ba215a8e2a959e237281\AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\09fb4713cfdfdd88250bba1417eb7841\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\09fb4713cfdfdd88250bba1417eb7841\AndroidManifest.xml:5:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3dd3143070c055cfa14ff7f1051ba4ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\3dd3143070c055cfa14ff7f1051ba4ef\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6eff37d63757f0b695a126e9a66157a2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\6eff37d63757f0b695a126e9a66157a2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c101483d67aeca5332e7cebb165f0c01\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\c101483d67aeca5332e7cebb165f0c01\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e38ff6e62a45ee15ebdac4ad3fcfed16\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\e38ff6e62a45ee15ebdac4ad3fcfed16\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3fd50717f573d07b26c15033f15d23e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\b3fd50717f573d07b26c15033f15d23e\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6301e502bd45cece1f0f4eae4d447967\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\6301e502bd45cece1f0f4eae4d447967\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\61b9f09caf4cae80164fb95c669dac05\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\61b9f09caf4cae80164fb95c669dac05\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b9ce0328cee29c957002d2b12aeae93c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\b9ce0328cee29c957002d2b12aeae93c\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\8ce1f30fa20b0db82ad9ec995cc8a8e8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\8ce1f30fa20b0db82ad9ec995cc8a8e8\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b998f090eb1af467f5ac49ba3b226407\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\b998f090eb1af467f5ac49ba3b226407\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\58e093ab19a7f657f316463b9569e788\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\58e093ab19a7f657f316463b9569e788\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6282df1001ac03441c3a7d9d080ecbf1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\6282df1001ac03441c3a7d9d080ecbf1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7e6d68c93d43362c8cb3a60d500cce13\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\7e6d68c93d43362c8cb3a60d500cce13\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\afa65bf2cc22e68074660ac1f03d3ae2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\afa65bf2cc22e68074660ac1f03d3ae2\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e9d1218b678977541fd6b649e1649be7\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\e9d1218b678977541fd6b649e1649be7\AndroidManifest.xml:20:5-44
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-	android:targetSdkVersion
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-	android:minSdkVersion
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\Map_App_Samsung\app\src\main\AndroidManifest.xml
-uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:23:5-79
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:23:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:24:5-67
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:24:22-64
-uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:26:5-28:35
-	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:27:9-41
-	android:required
-		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\83939e89e99fdb8cac9a11603bc330b6\AndroidManifest.xml:28:9-32
-activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:23:9-26:75
-	android:exported
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:25:13-37
-	android:theme
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:26:13-72
-	android:name
-		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\50b5898982159c877868b6075eaff326\AndroidManifest.xml:24:13-79
-meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:23:9-25:69
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:25:13-45
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:28:13-30:82
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:25:13-66
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:30:17-79
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\78a10581792304e31521b6ee9a69b93e\AndroidManifest.xml:24:13-58
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:29:17-63
+activity#com.example.deathis.myapplication.RegistrationActivity
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:32:9-58
+	android:name
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:32:19-55
+activity#com.example.deathis.myapplication.EmailPassActivity
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:33:9-34:20
+	android:name
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:33:19-52
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:36:9-38:55
+	android:value
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:38:13-52
+	android:name
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:37:13-58
+activity#com.example.deathis.myapplication.MapsActivity
+ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:40:9-42:68
+	android:label
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:42:13-56
+	android:name
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml:41:13-41
+uses-sdk
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\55aa2309f021d9f5ccc74b864c86c0e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\55aa2309f021d9f5ccc74b864c86c0e9\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3838525ec18fc77dea04cad13ac0edfc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\3838525ec18fc77dea04cad13ac0edfc\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:20:5-44
+MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\b6427ced0b7357f78a6b01c9f925db23\AndroidManifest.xml:5:5-7:41
+MERGED from [com.r0adkll:slidableactivity:2.0.6] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\slidableactivity-2.0.6.aar\b6427ced0b7357f78a6b01c9f925db23\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\216b12f849445d0990855602ed0df681\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-16.0.1.aar\216b12f849445d0990855602ed0df681\AndroidManifest.xml:6:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\8385ffb4b9a9f507c52693f533dfcfd6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-flags-16.0.1.aar\8385ffb4b9a9f507c52693f533dfcfd6\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b0e861afb2e47e05f27e50de9ff70f0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-interop-16.0.1.aar\b0e861afb2e47e05f27e50de9ff70f0c\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\97dd2f9ecea2674101077824d390151e\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-collection:15.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-collection-15.0.1.aar\97dd2f9ecea2674101077824d390151e\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\1bb34864c268cb650a136e64650049e9\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\1bb34864c268cb650a136e64650049e9\AndroidManifest.xml:6:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\655b9ed322ed9b4eac640805f2384fef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\655b9ed322ed9b4eac640805f2384fef\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\2f20e6d7b40f3ae1bf1713744571621b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.1.aar\2f20e6d7b40f3ae1bf1713744571621b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\60ea939677ae751288dfbc09d31d2641\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\60ea939677ae751288dfbc09d31d2641\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\96f7941257d7947fa279e3e12679de8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\96f7941257d7947fa279e3e12679de8c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\1b3eafad0439823e25763918ddc222cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\1b3eafad0439823e25763918ddc222cd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2289943a0a0c0c00d3e89402abd3c3fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.1.aar\2289943a0a0c0c00d3e89402abd3c3fc\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ebfeb3fa40eca479ebd958bc92156974\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ebfeb3fa40eca479ebd958bc92156974\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9e4bf1a1e2706224e7188bd666ed6ac4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\9e4bf1a1e2706224e7188bd666ed6ac4\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\21b32adda8d09627974fc9fd2cad28fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\21b32adda8d09627974fc9fd2cad28fd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f4706badeb3c1bd4fb2f7c7a081e3b38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\transition-27.1.1.aar\f4706badeb3c1bd4fb2f7c7a081e3b38\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5e871a9a51ddf2f3ffbf95d0a3985f64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.1.aar\5e871a9a51ddf2f3ffbf95d0a3985f64\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a5394b24ffd93ba2a68812189ef5215b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\a5394b24ffd93ba2a68812189ef5215b\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b9e0ac821d68ae22b1943c6be4a49006\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\b9e0ac821d68ae22b1943c6be4a49006\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cdbb649d094bd471fc11a9b258ae86b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\cdbb649d094bd471fc11a9b258ae86b9\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\150486cb5b4cd15649e183335d45d4e5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\150486cb5b4cd15649e183335d45d4e5\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\87f367dd1ad62aa36d97eed76cf7011f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\87f367dd1ad62aa36d97eed76cf7011f\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Deathis\Documents\Apps Studio\Studio\1\Map_App_Samsung\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:23:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\1bb34864c268cb650a136e64650049e9\AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-database-connection:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-database-connection-16.0.1.aar\1bb34864c268cb650a136e64650049e9\AndroidManifest.xml:8:5-67
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:24:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\3c3e0ddad98d8bc52cdb06a429808929\AndroidManifest.xml:28:9-32
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:33:9-39:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.1.0.aar\63bca9d79bc32fffb0ba99aee182a1b5\AndroidManifest.xml:37:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\2894f4bf7c97fa238caf56c1e5bdd12c\AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.3] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\firebase-common-16.0.3.aar\2027ed9cdb03c16ef29800e07dd12793\AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] C:\Users\Deathis\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.1.0.aar\6ac6d5366d4423f4e7f886b32ad233fe\AndroidManifest.xml:24:13-58
